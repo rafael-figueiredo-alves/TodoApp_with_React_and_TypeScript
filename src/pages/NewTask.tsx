@@ -23,7 +23,7 @@ export default function NewTask(){
     const onSubmit = (data: AddTodoForm , e: any) => {
         addTodo(data.task);
         e.target.reset();
-        window.location.href = '/';
+        window.location.href="/TodoApp_with_React_and_TypeScript"
     }
 
     return(

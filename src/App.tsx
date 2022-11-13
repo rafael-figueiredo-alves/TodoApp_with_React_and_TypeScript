@@ -12,7 +12,7 @@ export default function App(){
             <Navbar />
             <div className="uk-container">
             <Routes>
-                <Route path='/' element={<Homepage />} />
+                <Route path='/TodoApp_with_React_and_TypeScript' element={<Homepage />} />
                 <Route path='/NewTask' element={<NewTask />} />
             </Routes>
             </div>
