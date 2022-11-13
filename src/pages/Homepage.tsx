@@ -1,9 +1,10 @@
 import React from "react";
+import TodoList from "./components/TodoList";
 
 export default function Homepage(){
     return(
         <>
-          <h1>TodoApp with React and TypeScript</h1>
+          <TodoList />
         </>
     );
 }
