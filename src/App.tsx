@@ -12,8 +12,8 @@ export default function App(){
             <Navbar />
             <div className="uk-container">
             <Routes>
-                <Route path='/' element={Homepage()} />
-                <Route path='/NewTask' element={NewTask()} />
+                <Route path='/' element={<Homepage />} />
+                <Route path='/NewTask' element={<NewTask />} />
             </Routes>
             </div>
           </BrowserRouter>

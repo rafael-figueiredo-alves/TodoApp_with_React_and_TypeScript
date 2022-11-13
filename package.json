@@ -2,6 +2,7 @@
   "name": "todoapp_react_typescript",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://rafael-figueiredo-alves.github.io/TodoApp_with_React_and_TypeScript/",
   "dependencies": {
     "@hookform/resolvers": "^2.9.10",
     "@testing-library/jest-dom": "^5.16.5",

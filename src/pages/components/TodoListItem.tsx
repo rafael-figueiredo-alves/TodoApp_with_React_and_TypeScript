@@ -19,7 +19,7 @@ export default function TodoListItem (props: TodoListItemProp){
     }
 
     return(
-        <tr className="uk-animation-slde-bottom-medium">
+        <tr className="uk-animation-slide-bottom-medium">
             <td className="uk-width-auto">
                 <label>
                     <input className="uk-checkbox"
@@ -28,7 +28,7 @@ export default function TodoListItem (props: TodoListItemProp){
                            onChange={handleChange} />       
                 </label>
             </td>
-            <td className="uk-width-auto">
+            <td className="uk-width-expand">
                 {props.todo.task}
             </td>
             <td className="uk-width-auto">
